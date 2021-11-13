@@ -1,0 +1,125 @@
+---
+title: "Report of epicPCR experiment, August 16 2021"
+params:
+   rmd: "report.Rmd"
+output: md_document
+---
+
+## Samples
+
+| Sample name | Sample type | Mock status | Phylotype |
+| :--- | :--- | :--- | :--- |
+| Rhodo1Mock10T16S | Rhodomonas | 1e4 copies | 16S |
+| Rhodo1Mock10T18S | Rhodomonas | 1e4 copies | 18S |
+| Rhodo1Mock1T16S | Rhodomonas | 1e5 copies | 16S |
+| Rhodo1Mock1T18S | Rhodomonas | 1e5 copies | 18S |
+| Rhodo1WWMock10T16S | WW + 1:1 Rhodomonas | 1e4 copies | 16S |
+| Rhodo1WWMock10T18S | WW + 1:1 Rhodomonas | 1e4 copies | 18S |
+| Rhodo1WWMock1T16S | WW + 1:1 Rhodomonas | 1e5 copies | 16S |
+| Rhodo1WWMock1T18S | WW + 1:1 Rhodomonas | 1e5 copies | 18S |
+| Rhodo10WWMock10T16S | WW + 1:10 Rhodomonas | 1e4 copies | 16S |
+| Rhodo10WWMock10T18S | WW + 1:10 Rhodomonas | 1e4 copies | 18S |
+| Rhodo10WWMock1T16S | WW + 1:10 Rhodomonas | 1e5 copies | 16S |
+| Rhodo10WWMock1T18S | WW + 1:10 Rhodomonas | 1e5 copies | 18S |
+| Rhodo100WWMock10T16S | WW + 1:100 Rhodomonas | 1e4 copies | 16S |
+| Rhodo100WWMock10T18S | WW + 1:100 Rhodomonas | 1e4 copies | 18S |
+| Rhodo100WWMock1T16S | WW + 1:100 Rhodomonas | 1e5 copies | 16S |
+| Rhodo100WWMock1T18S | WW + 1:100 Rhodomonas | 1e5 copies | 18S |
+| WWMock10T16S | WW | 1e4 copies | 16S |
+| WWMock10T18S | WW | 1e4 copies | 18S |
+| WWMock1T16S | WW | 1e5 copies | 16S |
+| WWMock1T18S | WW | 1e5 copies | 18S |
+
+## Barcode distributions
+
+<table>
+  <tr>
+    <td>Barcode distribution</td>
+    <td>Barcode taxonomy distribution</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../figures/bc_distribution.png"></td>
+    <td valign="top"><img src="../figures/bc_tax_distribution.png"></td>
+  </tr>
+ </table>
+
+## Distribution of connections
+
+<td valign="top"><img src="../figures/connection_distribution.png" width=500></td>
+
+
+## Abundance profiles
+
+The abundance columns are:
+
+- Rhodo1Mock10T
+- Rhodo1WWMock10T
+- Rhodo10WWMock10T
+- Rhodo100WWMock10T
+- WWMock10T
+- Rhodo1Mock1T
+- Rhodo1WWMock1T
+- Rhodo10WWMock1T
+- Rhodo100WWMock1T
+- WWMock1T
+
+<td valign="top"><img src="../figures/bact_abunds.png" ></td>
+<td valign="top"><img src="../figures/euk_abunds.png" ></td>
+
+
+## Tanglegram of mockmag
+
+The abundance columns are:
+
+- Rhodo1Mock1T
+- Rhodo1WWMock1T
+- Rhodo10WWMock1T
+- Rhodo100WWMock1T
+- WWMock1T
+
+Non-normalised connections
+<td valign="top"><img src="../figures/one.png" ></td>
+
+Normalised connections
+<td valign="top"><img src="../figures/one_normalised.png" ></td>
+
+
+## Tanglegram of mocknomag
+
+The abundance columns are:
+
+- Rhodo1Mock10T
+- Rhodo1WWMock10T
+- Rhodo10WWMock10T
+- Rhodo100WWMock10T
+- WWMock10T
+
+Non-normalised connections
+<td valign="top"><img src="../figures/ten.png" ></td>
+
+Normalised connections
+<td valign="top"><img src="../figures/ten_normalised.png" ></td>
+
+
+## Standard abundances
+
+<table>
+  <tr>
+    <td>Absolute mock abundances</td>
+    <td>Proportional mock abundances</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../figures/mock_abundances.png"></td>
+    <td valign="top"><img src="../figures/mock_proportions.png"></td>
+  </tr>
+ </table>
+
+Absolute biological standard abundances
+<td valign="top"><img src="../figures/biol_std_abundances.png" ></td>
+
+
+## OTU sampling frequency
+
+<td valign="top"><img src="../figures/otu_sampling_frequency.png" ></td>
+
+
