@@ -31,7 +31,7 @@ Raw data available at https://zenodo.org/record/5226518
 
 Lab protocols available at 
 
-Summary of the results available at 
+Summary of the results available at https://github.com/manutamminen/epicpcr_7/blob/main/docs/index.md
 
 # Building
 
